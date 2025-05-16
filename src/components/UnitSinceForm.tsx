@@ -103,7 +103,7 @@ export const UnitSinceForm: FunctionComponent = () => {
     if (start === 'thisDate') setStartDateTime(`${date}T${time}`)
   }, [date, time, start])
   return (
-    <div className="text-center border rounded border-pink-200 p-8 w-max">
+    <div className="text-center border rounded-sm border-pink-200 p-8 w-max">
       <div className="flex flex-col md:flex-row md:justify-center space-x-4 items-end mb-8">
         <label>
           <span className="block italic mb-4">How many of what</span>{' '}
@@ -159,7 +159,7 @@ export const UnitSinceForm: FunctionComponent = () => {
         <Link
           href={`/${unit}/since/${startDateTime || start}`}
           onClick={e => e.currentTarget.blur()}
-          className="border rounded-md border-pink-200 px-4 py-2 focus:ring-1 focus:ring-pink-300 focus:border-pink-300 focus:outline-none"
+          className="border rounded-md border-pink-200 px-4 py-2 focus:ring-1 focus:ring-pink-300 focus:border-pink-300 focus:outline-hidden"
         >
           Go
         </Link>
