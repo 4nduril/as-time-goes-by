@@ -10,7 +10,7 @@
     "test": "npm run lint && npm run tc"
   },
   "dependencies": {
-    "dayjs": "^1.11.10",
+    "dayjs": "^1.11.13",
     "next": "^15.3.2",
     "next-plausible": "^3.12.4",
     "next-seo": "^6.6.0",
