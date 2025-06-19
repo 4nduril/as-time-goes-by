@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.13",
-    "next": "^15.3.3",
+    "next": "^15.3.4",
     "next-plausible": "^3.12.4",
     "next-seo": "^6.8.0",
     "react": "^19.1.0",
